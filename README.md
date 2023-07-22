@@ -5,8 +5,147 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NAVBAR BOSQUE</title>
-    <link rel="stylesheet" href="style.css" />
+    
   </head>
+  
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(wpp.jpg);
+  height: 100vh;
+  justify-content: space-between;
+}
+
+.container {
+  background-color: transparent;
+  width: 100%;
+  height: 100px;
+}
+
+.ul-navbar {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.li-navbar {
+  list-style-type: none;
+  padding: 20px;
+  margin: 5px;
+  color: white;
+  font-size: 20px;
+}
+
+.li-navbar:hover {
+  background: transparent;
+  transition: 0.2s ease-in-out;
+  transition-delay: none;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+}
+
+.li-navbar a {
+  color: white;
+}
+
+.li-navbar a:hover {
+  color: black;
+}
+
+.a-navbar {
+  text-decoration: none;
+}
+
+.container-content {
+  background: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 80vh;
+}
+
+#a-instagram {
+  background-color: #f72585;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#a-whatsapp {
+  background-color: #40916c;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#a-discord {
+  background-color: #0077b6;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.img-content {
+  width: 30%;
+  height: 30%;
+  transition: width 0.5s, height 0.5s;
+}
+
+.img-content:hover {
+  width: 40%;
+  height: 40%;
+}
+
+.container-foot {
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  font-family: "DarumaDrop One";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+  </style>
+  
   <body>
     <section>
       <!-- NAVGATION BAR -->
